@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sainaba Soonam P K | Portfolio</title>
+  <link rel="stylesheet" href="pstyle.css">
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "7o-YUrFEiykjmVSdu",
+      });
+   })();
+</script>
+<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <img src="Images\myphoto.jpeg" alt="Sainaba Soonam P K" class="profile-pic">
+
+    <div>
+      <h1>Sainaba Soonam P K</h1>
+      <p>Assistant Professor | Computer Science</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#research">Research</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>Professional Summary</h2>
+  <p>
+    Experienced Assistant Professor in Computer Science with over 11 years of
+    teaching and academic coordination experience. Strong technical background
+    in programming, curriculum development, and department leadership.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>MCA</strong> – MES College of Engineering, Kuttippuram (2009)</li>
+    <li><strong>BSc Physics</strong> – Ansar Women’s College, Perumpilavu (2006)</li>
+    <li><strong>UGC NET Qualified</strong> – Computer Science & Applications (2019)</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>Programming: C, C++, Java, Python, JavaScript</li>
+    <li>Web Technologies: HTML, CSS</li>
+    <li>Database: SQL</li>
+    <li>Tools: Microsoft Office</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Work Experience</h2>
+  <h3>Assistant Professor</h3>
+  <p>Ansar Women’s College, Perumpilavu (Nov 2012 – Mar 2024)</p>
+
+  <h4>Key Roles & Responsibilities</h4>
+  <ul>
+    <li>Head of the Department (2022–2024)</li>
+    <li>Organized International Conference (INTELIX-24)</li>
+    <li>Project & Undergraduate Coordinator</li>
+    <li>Editor-in-Chief, Department Journal</li>
+    <li>Internal Examination Coordinator</li>
+    <li>Member, Internal Quality Assurance Cell (IQAC)</li>
+    <li>Actively involved in NAAC accreditation work</li>
+  </ul>
+</section>
+
+<section id="research">
+  <h2>Research & Academic Projects</h2>
+
+  <h4>Academic Project</h4>
+  <p>
+    <strong>Centralised Remote Power Management System</strong><br>
+    Environment: Java
+  </p>
+
+  <h4>Research & Presentations</h4>
+  <ul>
+    <li>
+      “Machine Learning and IoT for Forest Fire Detection:
+      A Comprehensive Algorithmic Review” – ICACRI 2024
+    </li>
+    <li>
+      “Evolving Approaches in ML and IoT for Forest Fire Detection:
+      A Comparative Review” – INTELIX 2024
+    </li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: soonampk@gmail.com</p>
+  <p>Phone: 9746941987</p>
+  <p>Nationality: Indian</p>
+</section>
+
+
+
+<section id="contact" class="container">
+  <h2>Contact Me</h2>
+  <form>                
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" cols="30" required></textarea>
+    </div>
+    <button type="button" onclick="sendMail()">Send</button>
+  </form>
+</section>
+
+
+<footer>
+  <p>© 2025 Sainaba Soonam P K</p>
+</footer>
+
+</body>
+</html>
